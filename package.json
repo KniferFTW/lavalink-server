@@ -1,0 +1,17 @@
+{
+  "name": "lavalink-server",
+  "version": "1.0.0",
+  "description": "Lavalink Server for Linux and Windows",
+  "main": "index.js",
+  "scripts": {
+    "win": "node index",
+    "linux": "bash start.sh"
+  },
+  "author": "KniferFTW",
+  "license": "MIT",
+  "dependencies": {
+    "cli-progress": "^3.9.1",
+    "dotenv": "^8.2.0",
+    "got": "^11.8.1"
+  }
+}
