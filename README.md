@@ -24,8 +24,8 @@ npm install
 
 ```bash
 # For Windows
-npm i win
+npm run win
 
 # For Linux
-npm i linux
+npm run linux
 ```
