@@ -15,5 +15,5 @@ if (existsSync(file)) {
     start();
 } else {
     console.log("Lavalink.jar doesn't exist, downloading...");
-    grab();    
+    grab();
 }

@@ -49,12 +49,3 @@ const grab = (url, filename, callback) => {
 }
     grab(url, 'Lavalink.jar', () => {});
 }
-
-// const grab = () => {
-//     console.log("Downloading Lavalink.jar")
-//     const download = stream(url).pipe(createWriteStream('Lavalink.jar'));
-//     download.on("finish", () => {
-//         console.log("Finished Downloading Lavalink.jar")
-//         execSync("java -jar Lavalink.jar", { stdio: "inherit" });
-//     });
-// };
