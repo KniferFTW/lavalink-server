@@ -1,2 +1,2 @@
 language = "bash"
-run = "npm linux"
+run = "npm start linux"
